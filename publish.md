@@ -467,7 +467,9 @@ Play Console çoğu durumda privacy policy ister; özellikle kişisel/veri beyan
 - [ ] Online ve herkese açık URL'ye koyulacak.
   - Taslak dosya: `PRIVACY.md`. İletişim e-postası eklendi.
   - GitHub Pages için yayın dosyaları hazırlandı: `docs/index.html` ve `docs/privacy.html`.
-  - Proje henüz Git repo olarak görünmüyor; URL almak için repo GitHub'a aktarılıp Pages ayarı yapılmalı.
+  - Proje GitHub'a aktarıldı: `https://github.com/onurcete/Abonix`.
+  - Beklenen GitHub Pages URL'si: `https://onurcete.github.io/Abonix/privacy.html`.
+  - GitHub CLI bu makinede kurulu olmadığı için Pages ayarı GitHub web arayüzünden açılmalı.
 
 Yayınlama seçenekleri:
 
