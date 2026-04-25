@@ -492,18 +492,20 @@ ABONIX harcama/abonelik takip uygulamasıdır. Bankacılık, kredi, yatırım ve
 
 - [x] Store açıklamasında finansal tavsiye / bankacılık hizmeti izlenimi verilmemeli.
 - [x] Privacy policy içinde finansal hesaplara erişilmediği net yazılabilir.
-- [ ] Play Console category seçimi yapılırken "Finance" seçilirse finansal uygulama gibi daha hassas incelenebilir; "Productivity" de değerlendirilebilir.
+- [x] Play Console category seçimi yapılırken "Finance" seçilirse finansal uygulama gibi daha hassas incelenebilir; "Productivity" de değerlendirilebilir.
+  - Store listing önerisi `Productivity` olarak hazırlandı; son karar Play Console'da verilecek.
 
 ## 9) Store Listing Hazırlığı
 
 ### 9.1 Temel bilgiler
 
-- [ ] App name:
+- [x] App name:
   - `ABONIX`
-- [ ] Short description:
+- [x] Short description:
   - Öneri TR: `Aboneliklerini, yenileme tarihlerini ve harcamalarını kolayca takip et.`
   - Öneri EN: `Track subscriptions, renewal dates, and recurring spending with ease.`
-- [ ] Full description hazırlanacak.
+- [x] Full description hazırlanacak.
+  - Kopyalanabilir store listing metinleri `STORE_LISTING.md` dosyasına hazırlandı.
 
 TR açıklama taslağı:
 
@@ -550,9 +552,10 @@ Seçenekler:
 - [ ] Finance
   - Artı: Harcama/abonelik takibiyle uyumlu.
   - Eksi: Finansal uygulama gibi daha hassas algılanabilir.
-- [ ] Productivity
+- [x] Productivity
   - Artı: Takip/organizasyon uygulaması olarak daha sade.
   - Eksi: Harcama yönü daha az görünür.
+  - İlk yayın için önerilen kategori.
 
 Öneri:
 
@@ -561,18 +564,18 @@ Seçenekler:
 
 ### 9.3 İletişim bilgileri
 
-- [ ] Geliştirici e-postası.
-- [ ] Privacy policy URL.
+- [x] Geliştirici e-postası.
+- [x] Privacy policy URL.
 - [ ] Web sitesi varsa ekle.
 - [ ] Telefon/adres gerekirse Play Console hesabı ayarlarında tamamla.
 
 ### 9.4 Store listing kalite kontrol
 
-- [ ] Anahtar kelime doldurma yapılmayacak.
-- [ ] Açıklama yanıltıcı olmayacak.
-- [ ] Uygulamada olmayan özellikler yazılmayacak.
+- [x] Anahtar kelime doldurma yapılmayacak.
+- [x] Açıklama yanıltıcı olmayacak.
+- [x] Uygulamada olmayan özellikler yazılmayacak.
 - [ ] Screenshotlar gerçek uygulamayı gösterecek.
-- [ ] Marka ilişkisi ima edilmeyecek.
+- [x] Marka ilişkisi ima edilmeyecek.
 
 ## 10) Play Console Uygulama Oluşturma
 
