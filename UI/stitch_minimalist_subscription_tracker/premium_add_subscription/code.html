@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-tertiary-fixed": "#001849",
+                "on-surface-variant": "#424844",
+                "surface-container": "#ebeeef",
+                "secondary": "#94483b",
+                "primary-fixed-dim": "#adcebd",
+                "secondary-fixed-dim": "#ffb4a7",
+                "surface-container-highest": "#e0e3e4",
+                "on-secondary": "#ffffff",
+                "surface": "#f7fafb",
+                "surface-bright": "#f7fafb",
+                "on-primary-fixed-variant": "#2f4d40",
+                "on-background": "#181c1d",
+                "tertiary-container": "#9bb4ff",
+                "on-tertiary-fixed-variant": "#23438d",
+                "on-secondary-container": "#773227",
+                "background": "#f7fafb",
+                "on-error": "#ffffff",
+                "secondary-fixed": "#ffdad4",
+                "primary-container": "#9dbead",
+                "outline-variant": "#c1c8c3",
+                "on-secondary-fixed": "#3d0702",
+                "primary-fixed": "#c8ead8",
+                "surface-container-low": "#f1f4f5",
+                "on-primary-container": "#304e40",
+                "surface-tint": "#466557",
+                "on-tertiary-container": "#24438e",
+                "on-error-container": "#93000a",
+                "surface-container-lowest": "#ffffff",
+                "surface-variant": "#e0e3e4",
+                "surface-container-high": "#e6e9ea",
+                "on-tertiary": "#ffffff",
+                "primary": "#466557",
+                "tertiary-fixed": "#dbe1ff",
+                "on-surface": "#181c1d",
+                "inverse-on-surface": "#eef1f2",
+                "outline": "#727974",
+                "on-secondary-fixed-variant": "#763126",
+                "error": "#ba1a1a",
+                "inverse-primary": "#adcebd",
+                "inverse-surface": "#2d3132",
+                "on-primary": "#ffffff",
+                "surface-dim": "#d7dadb",
+                "tertiary": "#3e5ba7",
+                "error-container": "#ffdad6",
+                "secondary-container": "#fd9d8c",
+                "on-primary-fixed": "#022016",
+                "tertiary-fixed-dim": "#b3c5ff"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "lg": "24px",
+                "gutter": "12px",
+                "xs": "8px",
+                "md": "16px",
+                "base": "4px",
+                "xl": "32px",
+                "margin-mobile": "16px",
+                "sm": "12px"
+            },
+            "fontFamily": {
+                "body-lg": ["Inter"],
+                "headline-md": ["Manrope"],
+                "label-md": ["Inter"],
+                "body-md": ["Inter"],
+                "headline-sm": ["Manrope"],
+                "headline-lg": ["Manrope"],
+                "label-lg": ["Inter"]
+            },
+            "fontSize": {
+                "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                "headline-md": ["22px", {"lineHeight": "28px", "fontWeight": "600"}],
+                "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": "500"}],
+                "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}],
+                "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                "label-lg": ["14px", {"lineHeight": "20px", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .btn-gradient {
+            background: linear-gradient(to bottom, #5a7d6d, #466557);
+        }
+        .glass-container {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body-md min-h-screen">
+<!-- Top Navigation Header (Suppressed BottomNavBar for Transactional Screen) -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-4 py-4 bg-stone-50/80 dark:bg-zinc-950/80 backdrop-blur-md border-b border-stone-200/50">
+<div class="flex items-center gap-3">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-stone-200/50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="arrow_back">arrow_back</span>
+</button>
+<h1 class="font-headline-sm text-headline-sm text-stone-900">Add Subscription</h1>
+</div>
+<div class="flex items-center">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-stone-200/50 transition-colors active:scale-95 duration-200">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="help_outline">help_outline</span>
+</button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-24 pb-32 px-margin-mobile flex flex-col items-center max-w-lg mx-auto">
+<!-- Add Logo Placeholder -->
+<div class="flex flex-col items-center mb-xl">
+<div class="w-24 h-24 rounded-3xl bg-surface-container-highest border-2 border-dashed border-outline-variant flex flex-col items-center justify-center gap-2 group cursor-pointer hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-outline text-3xl group-hover:text-primary" data-icon="add_a_photo">add_a_photo</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Add Logo</span>
+</div>
+<p class="mt-xs font-label-md text-label-md text-on-surface-variant/60">Optional: 400x400 PNG/JPG</p>
+</div>
+<!-- Subscription Form -->
+<div class="w-full space-y-lg">
+<!-- Subscription Name -->
+<div class="space-y-xs">
+<label class="font-label-lg text-label-lg text-on-surface ml-1" for="sub-name">Subscription Name</label>
+<div class="relative">
+<input class="w-full h-14 px-md rounded-xl bg-white border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary transition-all text-body-lg font-body-lg placeholder:text-outline-variant/60" id="sub-name" placeholder="e.g., Netflix" type="text"/>
+</div>
+</div>
+<!-- Price Field -->
+<div class="space-y-xs">
+<label class="font-label-lg text-label-lg text-on-surface ml-1" for="price">Price</label>
+<div class="relative flex items-center">
+<span class="absolute left-md font-body-lg text-on-surface-variant">₺</span>
+<input class="w-full h-14 pl-10 pr-md rounded-xl bg-white border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary transition-all text-body-lg font-body-lg placeholder:text-outline-variant/60" id="price" placeholder="0,00" type="text"/>
+</div>
+</div>
+<!-- Two Column Row: Billing Cycle & Renewal Date -->
+<div class="grid grid-cols-2 gap-md">
+<div class="space-y-xs">
+<label class="font-label-lg text-label-lg text-on-surface ml-1" for="cycle">Billing Cycle</label>
+<div class="relative">
+<select class="w-full h-14 px-md pr-10 rounded-xl bg-white border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary transition-all appearance-none text-body-md font-body-md" id="cycle">
+<option value="monthly">Monthly</option>
+<option value="yearly">Yearly</option>
+<option value="weekly">Weekly</option>
+<option value="quarterly">Quarterly</option>
+</select>
+<span class="material-symbols-outlined absolute right-md top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant" data-icon="expand_more">expand_more</span>
+</div>
+</div>
+<div class="space-y-xs">
+<label class="font-label-lg text-label-lg text-on-surface ml-1" for="date">Renewal Date</label>
+<div class="relative">
+<input class="w-full h-14 px-md rounded-xl bg-white border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary transition-all text-body-md font-body-md" id="date" type="date"/>
+</div>
+</div>
+</div>
+<!-- Category Field -->
+<div class="space-y-xs">
+<label class="font-label-lg text-label-lg text-on-surface ml-1" for="category">Category (Optional)</label>
+<div class="relative">
+<select class="w-full h-14 px-md pr-10 rounded-xl bg-white border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary transition-all appearance-none text-body-md font-body-md" id="category">
+<option disabled="" selected="" value="">Select Category</option>
+<option value="entertainment">Entertainment</option>
+<option value="productivity">Productivity</option>
+<option value="utility">Utility</option>
+<option value="health">Health &amp; Fitness</option>
+<option value="education">Education</option>
+</select>
+<span class="material-symbols-outlined absolute right-md top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant" data-icon="expand_more">expand_more</span>
+</div>
+</div>
+<!-- Reminders Toggle (Bonus for Mindful Tracking feel) -->
+<div class="p-md bg-surface-container-low rounded-xl flex items-center justify-between border border-stone-200/50">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="notifications_active">notifications_active</span>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Renewal Reminders</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Get notified 2 days before</p>
+</div>
+</div>
+<div class="w-12 h-6 bg-primary-container rounded-full relative cursor-pointer">
+<div class="absolute right-1 top-1 w-4 h-4 bg-on-primary rounded-full shadow-sm"></div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Actions Container -->
+<div class="fixed bottom-0 left-0 w-full p-6 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-lg border-t border-stone-100 dark:border-zinc-800 flex justify-center items-center">
+<button class="w-full max-w-lg h-14 btn-gradient text-on-primary rounded-2xl font-headline-sm text-headline-sm shadow-xl shadow-primary/20 active:scale-95 transition-all duration-200 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined" data-icon="check_circle">check_circle</span>
+            Save Subscription
+        </button>
+</div>
+<!-- Decorative Subtle Background Grain/Gradient -->
+<div class="fixed inset-0 pointer-events-none -z-10 opacity-30">
+<div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary-fixed-dim blur-[120px] rounded-full"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-tertiary-fixed-dim blur-[100px] rounded-full"></div>
+</div>
+</body></html>

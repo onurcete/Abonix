@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#001849",
+                    "on-surface-variant": "#424844",
+                    "surface-container": "#ebeeef",
+                    "secondary": "#94483b",
+                    "primary-fixed-dim": "#adcebd",
+                    "secondary-fixed-dim": "#ffb4a7",
+                    "surface-container-highest": "#e0e3e4",
+                    "on-secondary": "#ffffff",
+                    "surface": "#f7fafb",
+                    "surface-bright": "#f7fafb",
+                    "on-primary-fixed-variant": "#2f4d40",
+                    "on-background": "#181c1d",
+                    "tertiary-container": "#9bb4ff",
+                    "on-tertiary-fixed-variant": "#23438d",
+                    "on-secondary-container": "#773227",
+                    "background": "#f7fafb",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#ffdad4",
+                    "primary-container": "#9dbead",
+                    "outline-variant": "#c1c8c3",
+                    "on-secondary-fixed": "#3d0702",
+                    "primary-fixed": "#c8ead8",
+                    "surface-container-low": "#f1f4f5",
+                    "on-primary-container": "#304e40",
+                    "surface-tint": "#466557",
+                    "on-tertiary-container": "#24438e",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-variant": "#e0e3e4",
+                    "surface-container-high": "#e6e9ea",
+                    "on-tertiary": "#ffffff",
+                    "primary": "#466557",
+                    "tertiary-fixed": "#dbe1ff",
+                    "on-surface": "#181c1d",
+                    "inverse-on-surface": "#eef1f2",
+                    "outline": "#727974",
+                    "on-secondary-fixed-variant": "#763126",
+                    "error": "#ba1a1a",
+                    "inverse-primary": "#adcebd",
+                    "inverse-surface": "#2d3132",
+                    "on-primary": "#ffffff",
+                    "surface-dim": "#d7dadb",
+                    "tertiary": "#3e5ba7",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#fd9d8c",
+                    "on-primary-fixed": "#022016",
+                    "tertiary-fixed-dim": "#b3c5ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "lg": "24px",
+                    "gutter": "12px",
+                    "xs": "8px",
+                    "md": "16px",
+                    "base": "4px",
+                    "xl": "32px",
+                    "margin-mobile": "16px",
+                    "sm": "12px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Inter"],
+                    "headline-md": ["Manrope"],
+                    "label-md": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-sm": ["Manrope"],
+                    "headline-lg": ["Manrope"],
+                    "label-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["22px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": "500"}],
+                    "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}],
+                    "headline-lg": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-lg": ["14px", {"lineHeight": "20px", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-card {
+            box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.04);
+        }
+        .soft-gradient {
+            background: linear-gradient(180deg, #466557 0%, #5a8170 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body-md min-h-screen pb-24">
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-4 py-4 bg-stone-50/80 backdrop-blur-md border-b border-stone-200/50">
+<button class="w-10 h-10 flex items-center justify-center rounded-full transition-colors active:scale-95 duration-200 hover:bg-stone-200/50 text-on-surface">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<span class="font-headline-sm text-headline-sm text-stone-900">Subscription Detail</span>
+<button class="w-10 h-10 flex items-center justify-center rounded-full transition-colors active:scale-95 duration-200 hover:bg-stone-200/50 text-on-surface">
+<span class="material-symbols-outlined" data-icon="more_vert">more_vert</span>
+</button>
+</header>
+<main class="mt-20 px-margin-mobile max-w-md mx-auto">
+<div class="flex flex-col items-center py-lg">
+<div class="w-24 h-24 rounded-3xl bg-white shadow-sm border border-stone-100 flex items-center justify-center overflow-hidden mb-md">
+<img alt="Netflix" class="w-16 object-contain" data-alt="Official Netflix logo with iconic red letter N and brand name, centered on a clean white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOO1WzRUCMGTqLPN5IOpVYSwSaj8vD5JMhW_JYj_rqBzNIhchJ7_XeYmPFArDUB4Hsk4RF6HITlyHfXGUaSBxenwGm-DZ41INQsuzTAj444AGBLVqBn4bh0Px48NCIzoVXWgRACKK0aEIMdCVHSZJfD8eDv7hR8mikuj3MT3pPSc1rLPAhHI_T44VJ6Zr3dfq64roV5H-S-e3qBX_zqufHmvXyCRxiVKF6vMFoPbKx-fqwQ1EylmdrtQqwzWrDMmLqU0oCY6PNpEk"/>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-background">Netflix</h1>
+<div class="mt-xs inline-flex items-center gap-base px-sm py-base bg-primary-container rounded-full text-on-primary-container">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="font-label-md text-label-md">Active</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-sm mb-lg">
+<div class="bg-surface-container-lowest p-md rounded-xl border border-stone-100 tonal-card">
+<span class="font-label-md text-label-md text-on-surface-variant block mb-base">Price</span>
+<p class="font-headline-sm text-headline-sm text-primary">₺99,99/month</p>
+</div>
+<div class="bg-surface-container-lowest p-md rounded-xl border border-stone-100 tonal-card">
+<span class="font-label-md text-label-md text-on-surface-variant block mb-base">Billing Cycle</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">Monthly</p>
+</div>
+<div class="bg-surface-container-lowest p-md rounded-xl border border-stone-100 tonal-card">
+<span class="font-label-md text-label-md text-on-surface-variant block mb-base">Next Payment</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">20 May 2024</p>
+</div>
+<div class="bg-surface-container-lowest p-md rounded-xl border border-stone-100 tonal-card">
+<span class="font-label-md text-label-md text-on-surface-variant block mb-base">Category</span>
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-tertiary text-[18px]" data-icon="movie">movie</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">Entertainment</p>
+</div>
+</div>
+<div class="col-span-2 bg-surface-container-lowest p-md rounded-xl border border-stone-100 tonal-card flex justify-between items-center">
+<div>
+<span class="font-label-md text-label-md text-on-surface-variant block mb-base">Payment Method</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">Credit Card (**** 4242)</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="credit_card">credit_card</span>
+</div>
+</div>
+<div class="flex gap-sm mb-xl">
+<button class="flex-1 py-md bg-primary-fixed text-on-primary-fixed-variant font-label-lg text-label-lg rounded-xl flex items-center justify-center gap-xs transition-colors hover:bg-primary-container active:scale-95 duration-200">
+<span class="material-symbols-outlined text-[20px]" data-icon="edit">edit</span>
+                Edit
+            </button>
+<button class="flex-1 py-md bg-secondary-fixed text-on-secondary-fixed-variant font-label-lg text-label-lg rounded-xl flex items-center justify-center gap-xs transition-colors hover:bg-secondary-container active:scale-95 duration-200">
+<span class="material-symbols-outlined text-[20px]" data-icon="delete">delete</span>
+                Delete
+            </button>
+</div>
+<section class="mb-lg">
+<div class="flex justify-between items-center mb-md">
+<h2 class="font-headline-sm text-headline-sm text-on-background">Payment History</h2>
+<button class="text-primary font-label-lg text-label-lg">View all</button>
+</div>
+<div class="space-y-sm">
+<div class="flex items-center justify-between p-md bg-white rounded-xl border border-stone-100">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]" data-icon="receipt_long">receipt_long</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">20 April 2024</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Successful</p>
+</div>
+</div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">₺99,99</p>
+</div>
+<div class="flex items-center justify-between p-md bg-white rounded-xl border border-stone-100">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]" data-icon="receipt_long">receipt_long</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">20 March 2024</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Successful</p>
+</div>
+</div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">₺99,99</p>
+</div>
+<div class="flex items-center justify-between p-md bg-white rounded-xl border border-stone-100 opacity-70">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]" data-icon="receipt_long">receipt_long</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">20 February 2024</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Successful</p>
+</div>
+</div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">₺99,99</p>
+</div>
+</div>
+</section>
+</main>
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-6 pb-8 pt-4 bg-white/90 backdrop-blur-lg border-t border-stone-100 rounded-t-3xl shadow-[0_-4px_20px_0_rgba(0,0,0,0.04)]">
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-500 transition-all">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-wider">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-500 transition-all">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-wider">Statistics</span>
+</button>
+<button class="flex flex-col items-center justify-center text-emerald-600 relative after:content-[''] after:absolute after:-bottom-1 after:w-1 after:h-1 after:bg-emerald-600 after:rounded-full">
+<span class="material-symbols-outlined" data-icon="grid_view" style="font-variation-settings: 'FILL' 1;">grid_view</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-wider">Categories</span>
+</button>
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-500 transition-all">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-manrope text-[10px] font-semibold uppercase tracking-wider">Settings</span>
+</button>
+</nav>
+</body></html>
