@@ -464,12 +464,11 @@ Data Safety yaklaşımı:
 Play Console çoğu durumda privacy policy ister; özellikle kişisel/veri beyanları için hazır olması iyi olur.
 
 - [x] Privacy policy metni hazırlanacak.
-- [ ] Online ve herkese açık URL'ye koyulacak.
+- [x] Online ve herkese açık URL'ye koyulacak.
   - Taslak dosya: `PRIVACY.md`. İletişim e-postası eklendi.
   - GitHub Pages için yayın dosyaları hazırlandı: `docs/index.html` ve `docs/privacy.html`.
   - Proje GitHub'a aktarıldı: `https://github.com/onurcete/Abonix`.
-  - Beklenen GitHub Pages URL'si: `https://onurcete.github.io/Abonix/privacy.html`.
-  - GitHub CLI bu makinede kurulu olmadığı için Pages ayarı GitHub web arayüzünden açılmalı.
+  - Canlı GitHub Pages URL'si: `https://onurcete.github.io/Abonix/privacy.html`.
 
 Yayınlama seçenekleri:
 
@@ -896,7 +895,7 @@ puro -e stable flutter build appbundle --release
 - [x] 4. Release signing kur.
 - [x] 5. Icon/splash üretimini tekrar çalıştır.
 - [x] 6. Analyze/test/smoke test yap.
-- [ ] 7. Privacy policy taslağını yaz ve URL'ye koy.
+- [x] 7. Privacy policy taslağını yaz ve URL'ye koy.
 - [ ] 8. Store listing metinlerini ve screenshotları hazırla.
 - [x] 9. AAB üret.
 - [ ] 10. Play Console'da app oluştur.
