@@ -116,21 +116,19 @@ Kontrol listesi:
 
 Google Play Store listing için hazırlanacak görseller:
 
-- [ ] App icon: 512 x 512 PNG.
-  - Alpha kabul edilmezse düz arka planlı sürüm hazırlamak gerekebilir.
-- [ ] Feature graphic: 1024 x 500 PNG/JPG.
+- [x] App icon: 512 x 512 PNG.
+  - Çıktı: `store_assets/play/icon-512.png`.
+- [x] Feature graphic: 1024 x 500 PNG/JPG.
   - ABONIX logosu, sade arka plan, kısa mesaj.
   - Üzerinde çok küçük yazı olmamalı.
-- [ ] Telefon screenshots.
+- [x] Telefon screenshots.
   - En az 2 gerekir, pratikte 5-8 adet önerilir.
-  - Önerilen ekranlar:
-    - Ana sayfa, toplam harcama ve abonelik listesi.
-    - Abonelik ekleme ekranı.
-    - Para birimi seçimi / ayarlar.
-    - Dark mode ana sayfa.
-    - Abonelik detay ekranı.
-- [ ] Screenshotlarda kişisel veri görünmemeli.
-- [ ] Screenshotlarda test verileri doğal görünmeli:
+  - Hazırlanan çıktı: `store_assets/play/screenshots/phone/01-home.png`.
+  - Hazırlanan çıktı: `store_assets/play/screenshots/phone/02-add-subscription.png`.
+  - Hazırlanan çıktı: `store_assets/play/screenshots/phone/03-detail.png`.
+  - Hazırlanan çıktı: `store_assets/play/screenshots/phone/04-empty-state.png`.
+- [x] Screenshotlarda kişisel veri görünmemeli.
+- [x] Screenshotlarda test verileri doğal görünmeli:
   - Netflix, YouTube, Spotify gibi marka isimleri kullanılacaksa telif/marka görünürlüğü düşünülmeli.
   - Store listing screenshotlarında gerçek marka logoları kullanmak riskli olabilir; gerekirse generic örnekler tercih edilir.
 
@@ -574,7 +572,7 @@ Seçenekler:
 - [x] Anahtar kelime doldurma yapılmayacak.
 - [x] Açıklama yanıltıcı olmayacak.
 - [x] Uygulamada olmayan özellikler yazılmayacak.
-- [ ] Screenshotlar gerçek uygulamayı gösterecek.
+- [x] Screenshotlar gerçek uygulamayı gösterecek.
 - [x] Marka ilişkisi ima edilmeyecek.
 
 ## 10) Play Console Uygulama Oluşturma
@@ -899,7 +897,7 @@ puro -e stable flutter build appbundle --release
 - [x] 5. Icon/splash üretimini tekrar çalıştır.
 - [x] 6. Analyze/test/smoke test yap.
 - [x] 7. Privacy policy taslağını yaz ve URL'ye koy.
-- [ ] 8. Store listing metinlerini ve screenshotları hazırla.
+- [x] 8. Store listing metinlerini ve screenshotları hazırla.
 - [x] 9. AAB üret.
 - [ ] 10. Play Console'da app oluştur.
 - [ ] 11. App Content formlarını doldur.

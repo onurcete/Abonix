@@ -121,14 +121,14 @@ Durum: hazır.
 Kaynak:
 
 ```text
-assets/branding/app_icon.png
+store_assets/play/icon-512.png
 ```
 
-Google Play için ayrıca 512 x 512 PNG olarak yüklenmesi gerekir. Mevcut dosya kare logo olduğu için kullanılabilir; Play Console yüklemesi sırasında kabul edilmezse 512 x 512 optimize edilmiş ayrı bir sürüm hazırlanmalı.
+Google Play için 512 x 512 PNG olarak hazırlandı. Kaynak logo `assets/branding/app_icon.png` dosyasından üretildi.
 
 ### Feature Graphic
 
-Durum: hazırlanacak.
+Durum: hazır.
 
 Gereksinim:
 
@@ -136,26 +136,36 @@ Gereksinim:
 1024 x 500 PNG/JPG
 ```
 
-İçerik önerisi:
+Çıktı:
 
-- Sol/orta bölgede ABONIX logo/bitki görseli.
-- Sade açık arka plan.
-- Kısa metin:
-  - TR: `Aboneliklerini kolayca takip et`
-  - EN: `Track subscriptions with ease`
+```text
+store_assets/play/feature-graphic.png
+```
+
+Notlar:
+
+- Boyut: 1024 x 500.
+- Format: RGB PNG, alpha/transparency yok.
+- Kullanıcının sağladığı marka ikonlarına dokunulmadı.
 
 ### Phone Screenshots
 
-Durum: hazırlanacak.
+Durum: hazır.
 
-Önerilen screenshot seti:
+Çıktılar:
 
-1. Ana sayfa - toplam harcama ve abonelik listesi.
-2. Abonelik ekleme ekranı.
-3. Para birimi seçimi görünen ekleme/düzenleme ekranı.
-4. Ayarlar ekranı - dil, tema, tercih edilen para birimi.
-5. Abonelik detay ekranı.
-6. Dark mode ana sayfa.
+```text
+store_assets/play/screenshots/phone/01-home.png
+store_assets/play/screenshots/phone/02-add-subscription.png
+store_assets/play/screenshots/phone/03-detail.png
+store_assets/play/screenshots/phone/04-empty-state.png
+```
+
+Notlar:
+
+- Her dosya 1080 x 1920 PNG olarak hazırlandı.
+- Kaynak 4 panelli görsel dört ayrı telefon screenshot'ına bölündü.
+- Görseller Play Console telefon screenshot alanına ayrı ayrı yüklenebilir.
 
 Notlar:
 
