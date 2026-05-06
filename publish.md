@@ -6,9 +6,9 @@ Bu dosya ABONIX uygulamasını Google Play Store'a yayınlamaya hazırlanmak iç
 
 ## 0) Mevcut Durum Özeti
 
-- [ ] Google Play Console hesabı aktivasyonu tamamlanacak.
+- [x] Google Play Console hesabı aktivasyonu tamamlanacak.
   - Hesap aktivasyonu için Google gerçek bir Android cihaz doğrulaması istiyor.
-  - Cihaz temin edilince Play Console mobil uygulaması / doğrulama akışı tamamlanmalı.
+  - Aktivasyon tamamlandı; Play Console adımlarına geçilebilir.
 - [x] Proje Flutter ile geliştiriliyor.
   - Çalıştırma komutu:
     ```powershell
@@ -25,10 +25,10 @@ Bu dosya ABONIX uygulamasını Google Play Store'a yayınlamaya hazırlanmak iç
   - `assets/branding/app_icon.png`
   - `assets/branding/splash_logo.png`
   - `assets/branding/app_icon.png` ve `assets/branding/splash_logo.png` mevcut logodan oluşturuldu.
-- [ ] Kritik teknik eksikler:
+- [x] Kritik teknik eksikler:
   - `android/app/build.gradle.kts` içinde `applicationId` ve `namespace` `com.onurc.abonix` olarak güncellendi.
-  - Release build şu anda debug signing kullanıyor.
-  - Production için upload keystore ve release signing ayarı yapılmalı.
+  - Release build debug signing yerine release signing kullanıyor.
+  - Upload keystore, `android/key.properties`, release signing ve AAB build doğrulandı.
 
 ## 1) Yayın Öncesi Ana Kararlar
 
