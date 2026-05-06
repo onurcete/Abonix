@@ -579,15 +579,15 @@ Seçenekler:
 
 Play Console aktivasyonu tamamlandıktan sonra:
 
-- [ ] Play Console'a gir.
-- [ ] "Create app" seç.
-- [ ] App name: `ABONIX`.
-- [ ] Default language: Türkçe veya İngilizce seç.
+- [x] Play Console'a gir.
+- [x] "Create app" seç.
+- [x] App name: `ABONIX`.
+- [x] Default language: Türkçe veya İngilizce seç.
   - Eğer hedef ilk pazar Türkiye ise Türkçe seçilebilir.
   - Global görünüm istenirse İngilizce seçilebilir.
-- [ ] App or game: App.
-- [ ] Free or paid: Free.
-- [ ] Declarations onaylanır.
+- [x] App or game: App.
+- [x] Free or paid: Free.
+- [x] Declarations onaylanır.
 
 Sonra Dashboard'daki zorunlu bölümler sırayla tamamlanır.
 
@@ -899,7 +899,7 @@ puro -e stable flutter build appbundle --release
 - [x] 7. Privacy policy taslağını yaz ve URL'ye koy.
 - [x] 8. Store listing metinlerini ve screenshotları hazırla.
 - [x] 9. AAB üret.
-- [ ] 10. Play Console'da app oluştur.
+- [x] 10. Play Console'da app oluştur.
 - [ ] 11. App Content formlarını doldur.
 - [ ] 12. Internal testing'e ilk AAB yükle.
 - [ ] 13. Closed testing için testerları organize et.
