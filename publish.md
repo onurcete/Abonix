@@ -597,19 +597,19 @@ Bu bölüm review için kritiktir.
 
 ### 11.1 Privacy policy
 
-- [ ] Privacy policy URL girilecek.
-- [ ] URL herkese açık ve erişilebilir olmalı.
-- [ ] PDF yerine normal web sayfası tercih edilmeli.
+- [x] Privacy policy URL girilecek.
+- [x] URL herkese açık ve erişilebilir olmalı.
+- [x] PDF yerine normal web sayfası tercih edilmeli.
 
 ### 11.2 Ads
 
-- [ ] Uygulamada reklam yoksa "No, my app does not contain ads" seç.
-- [ ] İleride reklam SDK eklenirse bu beyan güncellenmeli.
+- [x] Uygulamada reklam yoksa "No, my app does not contain ads" seç.
+- [x] İleride reklam SDK eklenirse bu beyan güncellenmeli.
 
 ### 11.3 App access
 
-- [ ] Login yoksa "All functionality is available without special access" seç.
-- [ ] Eğer ileride login/özel erişim eklenirse reviewer için test hesabı sağlanmalı.
+- [x] Login yoksa "All functionality is available without special access" seç.
+- [x] Eğer ileride login/özel erişim eklenirse reviewer için test hesabı sağlanmalı.
 
 ### 11.4 Content rating
 
@@ -658,15 +658,15 @@ Amaç: Play Console üzerinden ilk AAB yüklemesini yapıp hızlı smoke test al
 
 Adımlar:
 
-- [ ] Test and release > Testing > Internal testing.
-- [ ] Tester listesi oluştur.
+- [x] Test and release > Testing > Internal testing.
+- [x] Tester listesi oluştur.
   - En fazla 100 internal tester.
   - Kendi Google hesabın ve 1-2 güvendiğin kişi eklenebilir.
-- [ ] İlk release oluştur.
-- [ ] `app-release.aab` yükle.
-- [ ] Release notes gir.
-- [ ] Review uyarılarını kontrol et.
-- [ ] Roll out to internal testing.
+- [x] İlk release oluştur.
+- [x] `app-release.aab` yükle.
+- [x] Release notes gir.
+- [x] Review uyarılarını kontrol et.
+- [x] Roll out to internal testing.
 - [ ] Opt-in link ile gerçek cihazda yükle.
 
 Kontrol:
@@ -901,7 +901,7 @@ puro -e stable flutter build appbundle --release
 - [x] 9. AAB üret.
 - [x] 10. Play Console'da app oluştur.
 - [ ] 11. App Content formlarını doldur.
-- [ ] 12. Internal testing'e ilk AAB yükle.
+- [x] 12. Internal testing'e ilk AAB yükle.
 - [ ] 13. Closed testing için testerları organize et.
 - [ ] 14. 12 tester / 14 gün şartını tamamla.
 - [ ] 15. Production access başvurusu yap.
